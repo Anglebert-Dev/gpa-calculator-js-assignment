@@ -21,7 +21,7 @@ A simple web-based GPA calculator built with vanilla JavaScript that allows user
 1. Enter assignment name and grade (0-5)
 2. Click "Add Assignment" or press Enter
 3. View your current GPA and assignment list
-4. Press "S" to log all data to console
+4. Press "S" to log all data to the console
 
 ## Project Structure
 
@@ -33,3 +33,4 @@ A simple web-based GPA calculator built with vanilla JavaScript that allows user
 
 - Anglebert Shumbusho Ishimwe
 - David Shumbusho
+- Nzabinesha Merci
