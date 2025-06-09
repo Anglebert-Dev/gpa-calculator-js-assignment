@@ -31,4 +31,5 @@ A simple web-based GPA calculator built with vanilla JavaScript that allows user
 
 ## Group Members
 
-[Add team members and their roles here] 
+Anglebert Shumbusho Ishimwe
+David Shumbusho
