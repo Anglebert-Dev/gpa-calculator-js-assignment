@@ -31,6 +31,25 @@ h2 {
     margin-bottom: 20px;
 }
 
+fieldset {
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+legend {
+    padding: 0 10px;
+    color: #4CAF50;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+legend strong {
+    font-weight: 600;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -39,19 +58,22 @@ label {
     display: block;
     margin-bottom: 5px;
     color: #555;
+    font-weight: 500;
 }
 
 input {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
+    transition: all 0.3s ease;
 }
 
 input:focus {
     outline: none;
     border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
 }
 
 button {
@@ -63,11 +85,14 @@ button {
     cursor: pointer;
     width: 100%;
     font-size: 16px;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+    margin-top: 10px;
 }
 
 button:hover {
     background-color: #45a049;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .stats-section {
@@ -76,6 +101,7 @@ button:hover {
     background-color: #f8f9fa;
     border-radius: 5px;
     text-align: center;
+    border: 1px solid #e9ecef;
 }
 
 #gpaDisplay {
@@ -101,10 +127,13 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
+    transition: all 0.3s ease;
 }
 
 .assignment-item:hover {
     background-color: #f8f9fa;
+    transform: translateX(5px);
+    border-color: #4CAF50;
 }
 
 .info-text {
