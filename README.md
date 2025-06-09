@@ -34,3 +34,7 @@ A simple web-based GPA calculator built with vanilla JavaScript that allows user
 - Anglebert Shumbusho Ishimwe
 - David Shumbusho
 - Nzabinesha Merci
+
+
+##LINK 
+- url: https://gpa-calculator-js-assignment.vercel.app/
