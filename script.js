@@ -53,16 +53,19 @@ function calculateGPA() {
 // Update UI
 function updateUI() {
     // Update GPA display
-    const gpa = calculateGPA();
-    gpaDisplay.textContent = gpa.toFixed(2);
-    
-    // Update assignments list
-    assignmentsList.innerHTML = assignments.map((assignment, index) => `
-        <div class="assignment-item">
-            <span>${assignment.name}</span>
-            <span>${assignment.grade.toFixed(1)}/5.0</span>
-        </div>
-    `).join('');
+const gpa = calculateGPA();
+gpaDisplay.textContent = gpa.toFixed(2);
+
+// Update assignment count
+document.getElementById('assignmentCount').textContent = assignments.length;
+
+// Update assignments list
+assignmentsList.innerHTML = assignments.map((assignment, index) => `
+    <div class="assignment-item">
+        <span>${assignment.name}</span>
+        <span>${assignment.grade.toFixed(1)}/5.0</span>
+    </div>
+`).join('');
 }
 
 // Handle keyboard events
